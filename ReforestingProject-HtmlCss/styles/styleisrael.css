@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+* {
+    padding:0;
+    margin:0 0px 0 0px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    background-color: white; 
+    box-sizing: border-box;
+    
+}
+
+/* this is the top side of the site */
+#header {
+    margin:auto 5px auto 5px ;
+    padding: 0;
+    background-color: #3E8562;
+    height: 153px;
+    width:1920px;
+}
+
+/*this is the logo*/
+#logo {
+    width:250px;
+    float: left; 
+    margin-bottom: 0%;
+    margin-right: 5%;
+    height:auto;
+}
+/* this is the whole body 
+#body {
+    max-width: 600px;
+    margin: auto;
+}*/
+
+
+/* this is the nav bar */
+#top-nav {
+    margin: auto 5px auto 5px ;
+    padding: 0px;
+    background-color:#B8C99B;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    width:1920px;
+}
+#container {
+    width: 1920px;
+    height:3080px;
+    /* order for the box model: margin, border, and padding */
+    margin: 0 auto;
+    /* border: thickness style color */
+    /*border: 1px solid #3E8562; */
+}
+/* Contactus forms to fill-added by Dena-for Contactus.html */
+#contactus-d{
+    height: 600px;
+    width:650px;
+    padding:10px 100px 40px 40px;
+    background-color: #f2f2f2;
+    float:left;
+    margin: 40px 20px 40px 50px;
+}
+/*shop.html - added by Dena-for credit cards images spacing */
+#cardimg{
+    padding:5px;
+}
+/*contacus.html- the parent container of the form and info box*/
+#container-contactusformD {
+   
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px 10px;
+    margin: 40px 50px 40px 30px;
+    height: 600px;
+    width: 600px;
+    float: right;
+}
+/*payment info for shop.html container*/
+#container-shopD {
+    font-size: medium;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 40px 450px 40px 450px;
+    height: 750px;
+    width: 600px;
+   
+}
+#banner {
+    min-width: 1280px;
+    height: auto;
+    margin: 0 5px 0 5px;
+
+    
+}
+
+/* donation buttons in shop.html*/
+#top-payment-buttons{
+    
+    width:600px;
+    padding: 10px 10px;
+    margin: 40px 450px 40px 450px; 
+   
+}
+#questions {
+    margin: 10px 100px 0px 20px;
+    padding: 20px;
+    text-align: justify;
+    float: left ;
+    font-size: 1rem;
+    border: 2px solid rgb(120, 231, 120);
+    width: 900px;
+}
+
+
+#faqimage1 {
+
+    margin: 10px 30px 0px 0px;
+    height: 500px ;
+    float:right
+}
+
+
+
+/* Tao 's main part for mission*/
+
+#main-1{
+    font-size: medium;
+    width: 900px;
+    margin:5px;
+    text-align: center;
+    border: 2px dashed #B8C99B;
+
+}
+
+#picture-1{
+    margin:200px 0 0 0;
+    float:left;
+}
+#main-2{
+    width:400px;
+    margin:5px 0 0 0;
+    padding:5px;
+    border: 2px solid rgb(120, 231, 120);
+    float: right;
+    overflow: scroll;
+
+}
+/*this is the footer*/
+#footer{
+    height:300px;
+    width: 1920px;
+    padding:75px;
+    background-color: #3E8562;
+    margin: 700px 0 0 0;
+}

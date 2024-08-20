@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/* 
+CSS document for the fixed layout web page 
+developed by: your name
+Script date: November 14, 2023
+*/
+
+/* reset the layout */
+* {
+    margin:0;
+    padding: 0;
+}
+
+/* styling the body selector */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    background-color: #808080; 
+}
+
+/* styling the container id selector */
+#container {
+    width: 960px;
+    /* order for the box model: margin, border, and padding */
+    margin: 0 auto;
+    /* border: thickness style color */
+    border: 1px solid #000080;
+}
+
+/* styling the header id selector */
+#header  {
+    width: 940px;
+    /* TRBL */
+    margin: 0;
+    padding: 10px;
+    background-color: #3E8562;
+    height: 75px;
+}
+#header ul li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* styling the top-nav id selector */
+#top-nav {
+    /* width: 940px; */
+    margin: 0px;
+    padding:18px;
+    background-color:#B8C99B;
+    height: 25px;
+}
+
+/* styling the list items inside the top-nav id selector */
+/* remove bullets */
+#top-nav ul li {
+    color: darkgray;
+    list-style-type: none;
+    display: inline;
+}
+
+/* styling the anchor selectors inside top-nav */
+#top-nav ul li a {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* apply pseudo-class 
+selector:pseudo-class-name {style declaration }
+:link - the web page has not been visited
+:visited - the web page has been visited
+:hover - when the mouse pointer (cursor) is currenlty above the link
+:acrive - click and hold down the mouse 
+
+the order - LoVeHAte
+*/
+
+#top-nav ul li a:link {
+    text-decoration: none;
+    color: black; 
+}
+
+#top-nav ul li a:visited {
+    color: purple;
+}
+
+/* styling the hover effect (pseudo-class) */
+#top-nav ul li a:hover {
+    color: darkgray;
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+#top-nav ul li a:active {
+    color: #0f0;
+}
+
+/* styling the middle-nav id selector */
+#middle-nav{
+ /* width: 940px; */
+ margin: 0px;
+ padding: 0px;
+ background-color: #c0c0c0;
+ }
+
+/* styling the bottom-nav id selector */
+#bottom-nav {
+text-align: center;
+background-color: white;
+margin: 0px;
+padding:50px;
+ }
+
+/* styling the left-sidebar id selector */
+#left-sidebar {
+    width: 250px;
+    margin: 0px;
+    padding: 0px 10px 20px 100px;
+    background-color:white;
+    height: 400px;
+    float: left;
+    /* overflow:visible | hidden | scroll | auto */
+    overflow: auto;
+    text-align: center;
+}
+
+
+/* styling the main id selector */
+#main {
+    width: 250px;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    background-color:white;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+/* styling the right side-bar id selector */
+#right-sidebar {
+    width: 250px;
+    margin: 0px;
+    padding: 0px 100px 20px 0px;
+    background-color: white;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+
+
+/* styling the footer id selector */
+#footer {
+    width: 920px;
+    padding: 20px;
+    background-color: #3E8562;
+    height: 65px;
+    clear: both;
+}
+
+/* styling the address selector inside the foote */
+#footer ul li{
+    display:inline;
+    padding-left: 100px;
+    color:white;
+    float:inline-end;
+}
+
+/* styling the span selector inside footer */
+#footer p{
+     text-align:center;
+
+}
+
